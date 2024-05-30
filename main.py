@@ -26,7 +26,7 @@ while True:
     cls()
     selectingCards = True
     cardsToPlay = []
-    cardInput = input(f"The card(s) currently in play: {cardInPlay}\nYou currently hold:\n{hands[activePlayer]}\nYou are going to play:\n{cardsToPlay}\nPlease enter a card you would like to play, or 'p' to pass:\n")
+    cardInput = input(f"The card(s) currently in play: {cardInPlay}\nYou currently hold:\n{hands[activePlayer]}\nPlease enter a card you would like to play, or 'p' to pass:\n")
     if cardInput.lower() == "p":
         activePlayer += 1
         cls()
